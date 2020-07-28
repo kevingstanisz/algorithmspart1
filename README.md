@@ -2,7 +2,7 @@
 #### by Princeton University
 
 ## Week 1 - Union Find
-Score - 97% 
+###Score - 97% 
 
 #### Objective: 
 This assignment was based on percolation. The idea was to see if the system percolates, meaning there is a path of open sites from the top of the system to the bottom of the system. 
@@ -17,7 +17,7 @@ IMAGE OF PERCOLATION PROBABILITY
 #### What I learned: 
 - Implementing a Union Find algorithm to find if a specific site was connected to another (QuickFindUF)
 - Using a virtual top and bottom to to more efficiently determine if there was a path from the top to the bottom 
-- Using standard statisitc libraries to calculate mean, standard deviation, confidence intervals
+- Using standard statistic libraries to calculate mean, standard deviation, confidence intervals
 
 
 #### Challenges faced: 
