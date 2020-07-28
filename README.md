@@ -2,7 +2,7 @@
 #### by Princeton University
 
 ## Week 1 - Union Find
-###Score - 97% 
+### Score - 97% 
 
 #### Objective: 
 This assignment was based on percolation. The idea was to see if the system percolates, meaning there is a path of open sites from the top of the system to the bottom of the system. 
