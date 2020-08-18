@@ -97,5 +97,26 @@ This was a very practical assignement. The 8 puzzle can be played on a 3x3 grid 
 - Nothing!
 
 
+## Week 5 - 8 Puzzle  
+### Score - 91% 
+
+#### Objective: 
+The objective of this assigment involved points on a grid and determining which points are in a query rectangle and which point is the closest to a query point. This is done using a 2d-tree in which a BST is built using points in the nodes in an alternating sequence of x and y coordinates. The first level compares x coordinates, the second level y coordinates and alternating from there. This results in an unit square where each node corresponds to an axis-aligned rectanlge. 
+
+
+#### What I learned: 
+- Priority queues and why they are so important. A priority queue is a queue where each element has a value or priority to it. The two functions that we were concerned with in this lesson were inserting an item and returning the maximum value. An array can insert an item in O(1) and return the maximum in O(n). An ordered array can insert an iten in O(1) and return the largest item in O(n). The binary heap implementation resulted in O(log(n)) for both inserting and returning. A binary heap is a binary tree that is a complete tree. 
+- The lesson was also about elementary symbol tables and how to implement adding and retrieving pairs or keys and values. It was clear binary search trees performed much better than binary searches and sequential searches. 
+- Utilizing the A* search alogorithm and MinPQ data type to solve this problem. By calculating the Hamming and Manhattan distances, this allowed for each search node to have a priority. The algorithm says to insert a node onto the queue, delete the search node with the minimum prioirity, and queue all neighboring search nodes onto the queue. This is repeated until the goal board has been achieved.
+
+
+#### Challenges faced: 
+- This assignment was not terribly difficult. One challange was understanding why using the twin will result in one board being solvable and one board being unsolvable. Another was not looking for the goal board when enqueuing the board but rather when the search node was being dequeued. 
+
+
+#### Missed points on: 
+- Nothing!
+
+
 
 
