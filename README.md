@@ -62,17 +62,39 @@ The goal of this assigment was to find the largest line segment that connected 4
 
 #### What I learned: 
 - Why heap and mergesort are two of the better sorting algorithms. It is important to be in-place and stable. In-place means there does not need to be any additional memory allocated to execute the algorithm. Stable means that keys with the same value remain in the same order as before the sort. The ideal sorting algorithm would be in-place, stable, and have a time complexity of N log N in the worst, average, and best case. Heap and mergesort can get close. 
+- It is necessary to understand the thoery behind the API before implementing it. It took me a while to understand the faster, sorting-based solution, and I tried to implement it while I was learning about it and that caused me to take a much longer time to complete the assignment. 
 - The important of immutability. In Java, primitive data types are immutable, which means that the values stored inside them cannot be changed once set. However, for non-primitive types, deep copies need to be made to ensure another method cannot change its value. 
-- NEED ONE MORE 
 
 
 #### Challenges faced: 
-- This was the by far the most diffiucult assignment of the six. The main challengs was not duplicating line segments. Say they were 5 or 6 points in a line, then there would be more than one solution to having 4 in a row. Since only the maximum line was to be recorded, it was important to make sure the outermost points were recorded before adding it as a line. This meant using the compareTo() function, which determined which points were the farthest to the top right, with the right being prioritized. This ensured the farthest points in the line segment were known an no middle points would be added. 
+- This was the by far the most diffiucult assignment of the six. The main challenge was not duplicating line segments. Say they were 5 or 6 points in a line, then there would be more than one solution to having 4 in a row. Since only the maximum line was to be recorded, it was important to make sure the outermost points were recorded before adding it as a line. This meant using the compareTo() function, which determined which points were the farthest to the top right, with the right being prioritized. This ensured the farthest points in the line segment were known an no middle points would be added. 
 
 
 
 #### Missed points on: 
-- Timing - the faster, sorting based solution still could have been faster. KEEP GOING WITH EXPLANATION  
+- Timing - the faster, sorting based solution still could have been faster. Too many comparisons were being made and could still have been optimized. Also, everything passed into the API had to be immutable.  
+
+
+
+## Week 4 - 8 Puzzle  
+### Score - 100% 
+
+#### Objective: 
+This was a very practical assignement. The 8 puzzle can be played on a 3x3 grid with 8 sliding tiles. The goal of the game is to rearrange the tiles by sliding tiles into the empty slot so the tiles end up in row-major order. 
+
+
+#### What I learned: 
+- Priority queues and why they are so important. A priority queue is a queue where each element has a value or priority to it. The two functions that we were concerned with in this lesson were inserting an item and returning the maximum value. An array can insert an item in O(1) and return the maximum in O(n). An ordered array can insert an iten in O(1) and return the largest item in O(n). The binary heap implementation resulted in O(log(n)) for both inserting and returning. A binary heap is a binary tree that is a complete tree. 
+- The lesson was also about elementary symbol tables and how to implement adding and retrieving pairs or keys and values. It was clear binary search trees performed much better than binary searches and sequential searches. 
+- Utilizing the A* search alogorithm and MinPQ data type to solve this problem. By calculating the Hamming and Manhattan distances, this allowed for each search node to have a priority. The algorithm says to insert a node onto the queue, delete the search node with the minimum prioirity, and queue all neighboring search nodes onto the queue. This is repeated until the goal board has been achieved.
+
+
+#### Challenges faced: 
+- This assignment was not terribly difficult. One challange was understanding why using the twin will result in one board being solvable and one board being unsolvable. Another was not looking for the goal board when enqueuing the board but rather when the search node was being dequeued. 
+
+
+#### Missed points on: 
+- Nothing!
 
 
 
