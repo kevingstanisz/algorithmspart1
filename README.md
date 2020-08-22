@@ -111,7 +111,7 @@ The objective of this assigment involved points on a grid and determining which 
 
 
 #### Challenges faced: 
-- This assignment was not terribly difficult. One challange was understanding why using the twin will result in one board being solvable and one board being unsolvable. Another was not looking for the goal board when enqueuing the board but rather when the search node was being dequeued. 
+- One challenge was understanding why the algorithm works. 
 
 
 #### Missed points on: 
