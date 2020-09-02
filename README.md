@@ -1,6 +1,20 @@
 # Algorithms, Part I 
 #### by Princeton University
 
+## Course Review 
+### Average Score - XX% 
+
+This course was definitely well worth my time. I knew the programming assignments would give me a challenge since I have not programmed in Java for a couple years. Not only was I able to recapture what I had learned in previous Java classes, I also learned more about the language with small tips and tricks along the way. On top of everything, the course thoroughly taught about several important algorithms and data structures. 
+
+Each week, Professor Sedgewick starts with the algorithm and underlying data structures it takes to complete the task in a very broad and general manner. After going through the required API, the naive and brute force ways were often explained to give context to what the other methods of going about the problem could be. Finally, we would end up on the fastest algorithm or algorithms, depending on if there were different ways to implement the algorithm based on the structure of the data. Then, the Java implementation and libraries would be exposed to us to use for the assignment. I think this was a very effective way to teach this course because it really allowed me to learn from the ground up and understand how these high level algorithms that can be used in applications work under the hood and what their advantages and disadvantages are. 
+
+A couple other remarks on the lectures - the quizzes at the end and sometimes the middle of the lectures always seemed to be the perfect difficulty. It was something where before the lecture, I probably would have no chance at getting correct, but after the fact it was something I could answer with ease. In cases where I had difficulty answering the question, I knew I had to go back and revisit the section to gain a larger understanding. The lectures weren’t the most boring in the world, either. Professor Sedgewick would interject some fun stories about his discoveries being mentioned in a reality TV show or fun applications these algorithms could be used for to keep me interested in the subject. I’m sure there was some Princeton bias at times, but by the look of things they have really led the way in finding a lot of the faster algorithms we learned about.
+
+To touch on the assignments, these were quite challenging at times. However, the course has been around for so long that if I had a question, it was very likely it was asked in the discussion board. I want to thank all of the people that took the time to respond to students’ questions because it saved me a lot of time in having to worry about minute details in the assignment. It was awesome to have a free autograder at my disposal. The results and feedback were very clear and concise, and it allowed me to improve my score relatively easily and allowed me to add a lot of things to my “lessons learned” section for each week!
+
+All in all, I couldn’t recommend this course enough. To have a free resource like this available is an incredible opportunity, and I am glad I took advantage of it. On to Part 2!
+
+
 ## Week 1 - Union Find
 ### Score - 97% 
 
